@@ -1,0 +1,151 @@
+#header{
+    border:  solid white;
+    height: 90px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: white;
+    position: absolute;
+    margin-bottom: 10px;
+    background-image: url(./newlogo.jpg);
+    background-position-x: 350px; ;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    
+}
+#header:hover{
+    background-color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+font{
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 25px;
+}
+
+input{
+    width: 200px;
+    height: 29px;
+   margin-left: 1000px;
+    font-size: 15px;
+    color: gray;
+    border: 5px transparent wheat;
+    outline-style: solid;
+    outline-color: gray;
+    outline-width: 2px;
+    outline-offset: 0px;
+    margin-top: 30px;
+}
+#content{
+    height: 1150px;
+    width: 100%;
+    border: transparent white;
+   
+    margin-top: 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: myanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-right: 25px;
+    margin-left: -15px;
+    transition: width 4s, height 4s, transform 4s;
+}
+@keyframes myanimation{
+    0%{background-image: url(./howisthis.jpg);}
+    50%{background-image: url(./gg.jpg);}
+    100%{background-image: url(./prince.jpg);}
+    
+}
+#nav{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 10px transparent white;
+}
+#button{
+    border: 10px solid white;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top: 97px;
+    position: relative;
+}
+
+.nav{
+    position: relative;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    margin-right: -15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav:hover{
+    font-weight: bolder;
+    background-color: whitesmoke;
+}
+input:hover{
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+#footer{
+    position: relative;
+    height: 700px;
+    width: 12%;
+    border: 10px solid whitesmoke;
+    margin-right: -15px;
+    margin-top: 535px;
+    background-color: whitesmoke;
+
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+li:hover{
+    background-color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#main{
+    position: absolute;
+    height: 700px;
+    width: 85%;
+    border: 10px solid whitesmoke;
+    margin-left: 200px;
+    margin-top: 533px;
+   
+    margin-right: -100px;
+    background-color: whitesmoke;
+
+}
+body{
+    overflow-x: hidden;
+}
+a:hover{
+    font-size: 25px;
+}
+p{
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 15px;
+}

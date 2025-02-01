@@ -1,0 +1,46 @@
+#one{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    background-image: url(./university.jpg);
+}
+#two{
+    position: relative;
+    height: 150%;
+    width: 90%;
+    float: right;
+    background-color: pink;
+}
+li{
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+
+}
+li:hover{
+    color: rgb(247, 8, 8);
+}
+ul{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    
+}
+
+
+div:hover{
+    color: rgb(255, 8, 8);
+}
+a {
+    text-decoration: none;
+    text-align: left;
+}
+#zero{
+    text-align: center;
+    background-color: #fff;
+}
+body{
+    background-color: bisque;
+    overflow: hidden; 
+}

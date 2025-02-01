@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="firstproject.css">
+    <title>Clothing</title>
+    <style>
+        #shirts{
+            position: relative;
+            display: inline-block;
+        }
+        #shirtdown{
+            display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  
+        }
+        #shirts:hover #shirtdown{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="nav">
+        Shop for Rs.8999 and get 10% off-
+    </div>
+    <div id="header">
+        <font><p>
+            STONE
+        </p></font>
+       <input type="text" placeholder="Search"/>
+        
+    </div>
+    <div id="button">
+        <span><font class="nav" id="shirts"><a href="./Shirts.html">Shirts </a></font></span>
+        <font class="nav" id="trousers"><a href="./Trousers.html">Trousers</a></font>
+        <font class="nav" id="shoes"><a href="./Shoes.html">Shoes</a></font>
+        <fonts class="nav" id="Pants"><a href="./Pants.html">Pants</a></fonts>
+        <font class="nav" id="jackets"><a href="./Hoodies.html">Hoodies</a></font>
+        <font class="nav" id="trousers"><a href="./T-shirts.html">T-Shirts</a></font>
+        <font class="nav" id="shoes"><a href="./Undergarments.html">Undergarments</a></font>
+        <fonts class="nav" id="Pants"><a href="">Track my Order</a></fonts>
+    </div>
+    <div id="shirtdown">
+        <ul>
+            <li>Formal</li>
+            <li>Casual</li>
+        </ul>
+    </div>
+    <center>
+    <div id="content">
+           
+    </div>
+    </center>
+    <div id="main">
+        
+    </div>
+    <div id="footer">
+        <ul>
+            <li>
+                <a href="">Categories</a>
+            </li>
+        </br>
+        <br>
+        <li>
+            <a href="">Size</a>
+        </li>
+        <br>
+        <br>
+        <li>
+            <a href="">Colors</a>
+        </li>
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
